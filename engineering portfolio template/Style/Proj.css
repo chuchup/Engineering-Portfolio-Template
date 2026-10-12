@@ -1,0 +1,165 @@
+/* Style Sheet for Home & All Projects Page */
+
+/* Navigation Bar Settings */
+
+#nav {
+	display: flex;
+	list-style: none;
+	
+	position: fixed;
+	top: -20px;
+	left: 0px;
+
+	align-items: center;
+	justify-content: left;
+
+	height: 100px;
+	width: 100%;
+
+	background-color: #DADDC9;
+
+	padding: 10px 15px;
+
+	z-index: 5;
+
+}
+
+#nav a {
+	color: #575527;
+	text-decoration: none;
+}
+
+#nav #title {
+	font-size: 100%;
+	color: #575527;
+
+	text-align: left;
+	margin: 25px 0px 25px 0px;
+	margin-left: 10%;
+
+}
+
+@media (min-width: 768px) {
+	#nav #title {
+		margin-left: 5%;
+		overflow: hidden;
+  	}
+}
+
+/* Website Settings */
+
+body {
+	background-image: url("Assets/green.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+	color: #575527;
+	text-align: center;
+	margin: 10px 50px 0px 0px;
+	padding: 10px;
+}
+
+#spacer {
+	margin-top: 150px;
+}
+
+/* Project Description */
+
+.mother {
+	display: flex;
+
+}
+
+.left {
+	position: relative;
+	width: 15%;
+
+	color: #575527;
+	background-color: #DADDC9;
+
+	padding: 15px;
+
+	margin-right: 20px;
+	margin-bottom: 16px;
+}
+
+.left a {
+	color: #575527;
+	text-decoration: none;
+
+	margin: 10px 0px 10px 0px;
+}
+
+.right {
+	background-color: #DADDC9;
+
+	margin-bottom: 16px;
+	padding: 0px 15px 0px 15px;
+
+	width: 80%;
+
+	border-left: 10px solid transparent;
+	border-image: url("Assets/pink_crumple.jpg") 30 stretch;
+}
+
+.right h3 {
+	color: #575527;
+}
+
+.right p {
+	color: #575527;
+
+	padding: 10px 0px 10px 10px;
+}
+
+.right .gallery {
+	display: flex;
+
+	overflow-x: scroll;
+	scrollbar-color: #575527 #DADDC9;
+
+}
+
+.right .gallery img {
+	max-height: 150px;
+}
+
+/* Connect Banner */
+
+.connect {
+	background-color: #DADDC9;
+
+	position: absolute;
+	left: 0px;
+
+	height: 180px;
+	width: 100%;
+}
+
+.connect h2 {
+	padding: 25px 0px 0px 25px;
+
+	color: #575527;
+}
+
+.connect-list {
+	display: flex;
+	list-style: none;
+
+	align-items: center;
+	justify-content: center;
+}
+
+
+.connect-list li {
+	padding-right: 50px;
+}
+
+.connect-list li a {
+	font-size: 18px;
+	color: #575527;
+	text-decoration: none;
+}
+
+
